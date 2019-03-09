@@ -1,0 +1,28 @@
+{
+    "name": "avasa/laravel-google-vision",
+    "description": "Laravel Wrapper for Google Vision API",
+    "type": "library",
+    "require": {
+        "google/cloud-vision": "dev-master",
+        "spatie/enum": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Avasa\\Vision\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avasa\\Vision\\GoogleVisionApiServiceProvider"
+            ]
+        }
+    }
+}
